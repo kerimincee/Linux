@@ -129,7 +129,7 @@ history
 >yaparak son 5 komutu görüntüleriz bu değişkenlik gösterebilir.
 
 #### `GREP` Komutu
-Bu komut belirli bir kalıbı filtrelemek ve o kalıbı içeren tüm satırları görüntülemek için kullanılır.
+Bu komut belirli bir kalıbı filtrelemek ve o kalıbı içeren tüm satırları görüntülemek için kullanılır.<br>
 >Kullanım Şekli : grep -i "bulunacakmetin" dosyaadı
 ```
 grep -i "i" yeniisim
@@ -150,3 +150,25 @@ grep -i "i" yeniisim
 >```
 >Ek olarak bulunan ifadenin hangi satırda olduğunu da gösterir.
 
+#### `MAN` Komutu 
+Bu komut bir komutun nasıl kullanılıcağını ve hakkında daha fazla bilgi edinebilmek için man komutu kullanılır.<br>
+>Kullanım Şekli : man linuxkomutu
+```
+man touch
+```
+![man](https://github.com/user-attachments/assets/6eea3aba-efe0-4a9c-bc84-bb4d6c06e8f4)
+
+>[!TIP]
+>Komutun çıktısı aşşağıdaki gibidir.
+![mançıktı](https://github.com/user-attachments/assets/a38b5a29-2189-495e-9eaa-ca5d790479df)
+
+#### `SUDO` Komutu
+Bu komutu yapılıcak bir işlemde kök ayrıcalıkları kullanmak istersek veya idari bir yapıyla erişim gerekiyorsa kullanabiliriz.<br>
+>Kullanım Şekli : sudo yapılacakişlem
+```
+sudo su
+```
+![sudosu](https://github.com/user-attachments/assets/186b7949-b4d9-4196-b6ee-4df8aa5b56df)
+
+>[!NOTE]
+>Fotoğrafta görüldüğü gibi <ins>su</ins> komutuyla yönetici paneline geçmek için şifre istiyor.
