@@ -1,4 +1,4 @@
-# Linux
+# Linux Komutları
 Bu projede en çok kullanılan windows komutlarına yer verilmiştir.
 
 ## Klasör Komutları
