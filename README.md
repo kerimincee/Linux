@@ -249,7 +249,6 @@ killall firefox
 
 >[!TIP]
 >Çalışan bir firefox işlemi bulunmadığından böyle bir çıktı vermişir.<br>
->Bu işlem başka şekillerde de kullanılabilir.
 
 >[!NOTE]
 >Bu işlem başka şekillerde de kullanılabilir.<br>
