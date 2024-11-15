@@ -160,6 +160,7 @@ man touch
 
 >[!TIP]
 >Komutun çıktısı aşşağıdaki gibidir.
+
 ![mançıktı](https://github.com/user-attachments/assets/a38b5a29-2189-495e-9eaa-ca5d790479df)
 
 #### `SUDO` Komutu
@@ -172,3 +173,89 @@ sudo su
 
 >[!NOTE]
 >Fotoğrafta görüldüğü gibi <ins>su</ins> komutuyla yönetici paneline geçmek için şifre istiyor.
+
+## Sistem Komutları
+
+#### `APROPOS` Komutu
+Bu komut belirli bir konuyla ilgili komutları veya işlevleri bulmanıza yardımcı olur.<br>
+>Kullanım Şekli : apropos yapılacakişlem
+```
+apropos file
+```
+>[!TIP]
+>Bu komut linux işletim sisteminde dosyalarla ilgili komutları bulur.
+
+![apropos](https://github.com/user-attachments/assets/cdfb902f-45e3-47d1-8fd6-465591c7951f)
+
+#### `UNAME` Komutu
+Bu komut işlemci mimarisini göstermek için kullanılır.<br>
+>Kullanım Şekli : uname -m
+```
+uname -m
+```
+
+![işlemcimimarisi](https://github.com/user-attachments/assets/b3cf08e2-2c65-47b1-b1e5-ba57a37442c6)
+
+#### `FREE` Komutu
+Bu komut sistem belleği kullanım durumunu görüntülemek için kullanılır.<br>
+>Kullanım Şekli : free
+```
+free
+```
+![free](https://github.com/user-attachments/assets/9fb85229-fbfb-4c0a-abfd-a6a915bd6446)
+
+#### `CLEAR` Komutu
+Bu komut terminalde yazılan kodları temizlemeye yarar.<br>
+>Kullanım Şekli : clear
+```
+clear
+```
+
+>[!NOTE]
+>Clear komutu kullanıldıktan sonra terminal olduğu yerden devam eder hangi klasördeyse ordan devam eder.
+
+![clear1](https://github.com/user-attachments/assets/ca052f44-4d94-4e4b-b864-89451d2bb11e)
+
+>[!TIP]
+>İşlem çıktısı:
+
+![clear2](https://github.com/user-attachments/assets/677a9a47-7688-4155-b79e-e045881a35da)
+
+#### `DİFF` Komutu
+Bu komut karşılaştırma komutu olarak geçer dosya veya klasörler karşılaştırılabilir.
+>Kullanım Şekli : diff 1.dosya 2.dosya
+```
+diff belge1 belge2
+```
+![diff](https://github.com/user-attachments/assets/3831be9b-9ecc-4fe3-b7cc-3fa0d5db7b84)
+
+>[!NOTE]
+>Bu kodu başka sekillerde de kullanabiliriz.<br>
+>diff -y	: Farkları yan yana gösterir.<br>
+>diff -c	: Bağlamsal farkları gösterir.<br>
+>diff -u	: Birleştirilmiş farkları gösterir.<br>
+>diff --brief : Dosyaların sadece farklı olup olmadığını bildirir.<br>
+>diff -i	: Büyük/küçük harf farkını yok sayar.<br>
+>diff -w	: Boşluk karakteri değişikliklerini yok sayar.<br>
+>diff --suppress-common-lines : Yan yana modda, ortak satırları göstermemek için kullanılır.
+
+#### `KİLLALL` Komutu
+Bu komut belirli bir işlemi sonlandırmaya yarar.<br>
+>Kullanım Şekli : killall sonlanacakişlem
+```
+killall firefox
+```
+![killall](https://github.com/user-attachments/assets/f821f944-0306-46d0-9487-2a909e8110e8)
+
+>[!TIP]
+>Çalışan bir firefox işlemi bulunmadığından böyle bir çıktı vermişir.<br>
+>Bu işlem başka şekillerde de kullanılabilir.
+
+>[!NOTE]
+>Bu işlem başka şekillerde de kullanılabilir.<br>
+>killall -9	: İşlemi zorla sonlandırır. (SIGKILL sinyali gönderir)<br>
+>killall -i	: Her işlem için kullanıcıdan onay ister.<br>
+>killall -u : kullanıcı	Belirli bir kullanıcıya ait işlemleri sonlandırır.<br>
+>killall -e	: Tam ad eşleşmesi arar.<br>
+>killall -w	: İşlemin tamamen sonlanmasını bekler.<br>
+>killall --help	: Kullanılabilir seçenekleri ve komutun kısa açıklamasını gösterir.
